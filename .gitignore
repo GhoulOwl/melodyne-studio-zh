@@ -1,3 +1,15 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Local software resources, backups, and generated patch output must stay local.
+*.dll
+*.exe
+*.bak
+*.bin
+*.rrr
+*.wav
+*.zip
+*.zh-backup/
+backup/
+node_modules/

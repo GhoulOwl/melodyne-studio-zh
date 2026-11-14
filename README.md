@@ -1,4 +1,15 @@
-# Melodyne Studio 5.4.2 macOS 简体中文补丁
+# Melodyne Studio 5.4.2 简体中文补丁
+
+为 Melodyne 5.4.2.006 提供 macOS 与 Windows x64 简体中文界面。项目只包含翻译数据和补丁脚本，不包含 Melodyne 程序、音频核心、授权信息或安装包。
+
+| 平台 | 脚本 | 安装方式 |
+| --- | --- | --- |
+| macOS | `install.py` | 生成独立的中文版应用副本，见下文 |
+| Windows x64 | `install-windows.cjs` | 备份后替换共享核心中的语言字典，见 [Windows 安装与恢复说明](WINDOWS.md) |
+
+两种脚本分别核验各自平台的版本和语言资源。Windows 支持 2,040 条翻译，已验证独立程序启动与中文菜单；音频功能与宿主插件尚未完成实测。需要 Node.js 22 或更高版本，详情见 [WINDOWS.md](WINDOWS.md)。
+
+## macOS 安装
 
 为 Melodyne 5.4.2.006 的 macOS **独立应用**生成一个简体中文副本。项目包含翻译数据与补丁工具，不包含 Melodyne 程序、音频核心、授权信息或安装包。需要先自行安装并取得 Melodyne 的使用许可。
 
